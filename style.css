@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    background-repeat: none;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    background-repeat: no-repeat;
+  }
+
+.container{
+    margin: 5rem 3rem 0 5rem;
+    text-align: center;
+    width: 70rem;
+    height: 50rem;
+    padding: 2rem;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 1.7rem 0 1.7rem 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(9, 3, 117) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.input{
+    text-align: center; 
+    margin: 5rem 0 2rem 0;
+    
+  }
+
+input[type="text"]{
+    height: 5rem;
+    width: 47rem;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    /* border: .1rem solid rgb(141, 138, 138); */
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+    border-radius: .3rem;
+    padding: 1rem 1rem;
+    border: none;
+    /* margin: 5rem 0 2rem 0; */
+}
+
+input[type="submit"]{
+    height: 4.8rem;
+    width: 9.4rem;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.6rem;
+    background-color: rgb(221, 219, 219);
+    border: none;
+    /* border: .1rem solid rgb(141, 138, 138); */
+    cursor: pointer;
+    margin: .6rem;
+    border-radius: .3rem;
+}
+
+.display{
+    height: 30rem;
+    width: 57.4rem;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(135, 185, 228);
+    /* border-radius: 1.5rem 0 1.5rem 0; */
+    /* box-shadow: .3rem .3rem rgba(77, 78, 78, 0.9); */
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.display .name{
+    /* margin: 3rem 0 3rem 0; */
+    font-family:myFirstFont;
+    font-size: 5rem;
+}
+
+.display .desc{
+    margin: 3rem 0 3rem 0;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.display .temp{
+    font-size: 2rem;
+}
